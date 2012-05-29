@@ -2,3 +2,5 @@
 *.suo
 /1-Install/App_Data/TEMP
 /1-Install/App_Data/umbraco.config
+/2-Base/App_Data/TEMP
+/2-Base/App_Data/umbraco.config
