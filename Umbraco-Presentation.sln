@@ -3,11 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project Root Files", "Project Root Files", "{B84ABD7B-B0D0-4E14-A5E3-C37B5501B4D5}"
 	ProjectSection(SolutionItems) = preProject
-		index.htm = index.htm
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "4-Templates", "4-Templates\", "{1565ECE3-B8BF-44C3-864A-D984A42BD09D}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "4-Templates", "4-Templates", "{1565ECE3-B8BF-44C3-864A-D984A42BD09D}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/4-Templates"
@@ -27,6 +26,26 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "4-Templates", "4-Templates\
 		VWDPort = "58256"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "5-Macros", "5-Macros", "{C2F98BA5-CE52-42B4-A37F-03AA9A0B891A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/5-Macros"
+		Debug.AspNetCompiler.PhysicalPath = "5-Macros\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\5-Macros\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/5-Macros"
+		Release.AspNetCompiler.PhysicalPath = "5-Macros\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\5-Macros\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49961"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +53,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1565ECE3-B8BF-44C3-864A-D984A42BD09D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1565ECE3-B8BF-44C3-864A-D984A42BD09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F98BA5-CE52-42B4-A37F-03AA9A0B891A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F98BA5-CE52-42B4-A37F-03AA9A0B891A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
