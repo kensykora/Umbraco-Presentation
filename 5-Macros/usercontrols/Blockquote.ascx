@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Blockquote.ascx.cs" Inherits="usercontrols_Blockquote" %>
+<blockquote><%=QuoteText %> <span class="author">- <%= Author %></span></blockquote>

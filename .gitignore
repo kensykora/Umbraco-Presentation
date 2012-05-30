@@ -1,11 +1,5 @@
 
 *.suo
-/1-Install/App_Data/TEMP
-/1-Install/App_Data/umbraco.config
-/2-Base/App_Data/TEMP
-/2-Base/App_Data/umbraco.config
+TEMP
+umbraco.config
 /_ReSharper.Umbraco-Presentation
-/3-Content/App_Data/TEMP
-/3-Content/App_Data/umbraco.config
-/4-Templates/App_Data/TEMP
-/4-Templates/App_Data/umbraco.config
