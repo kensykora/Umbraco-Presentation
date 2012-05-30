@@ -9,7 +9,6 @@ public partial class usercontrols_Blockquote : System.Web.UI.UserControl
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
     }
 
     public string QuoteText { get; set; }
