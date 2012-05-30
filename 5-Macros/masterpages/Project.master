@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" CodeFile="Project.master.cs" Inherits="masterpages_Project" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+ <div class="portfolio-detail">
+	<div class="portfolio-images cycle">
+	    <asp:Repeater runat="server" ID="Images" >
+	        <ItemTemplate>
+	            <img src='<%# Eval("ImageUrl") %>' class="portfolio-image" alt="<%# Eval("AltText") %>" />
+	        </ItemTemplate>
+	    </asp:Repeater>
+	</div>
+	<a href="#left" id="left" class="left">left</a>
+	<a href="#right" id="right" class="right">right</a>
+	<div class="portfolio-description-wrapper">
+	    <p class="portfolio-description"><umbraco:Item runat="server" Field="hoverDescription" /></p>
+	</div>
+</div>
+</asp:Content>

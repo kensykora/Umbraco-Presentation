@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Base.master" CodeFile="ProjectLanding.master.cs" Inherits="masterpages_ProjectLanding" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+    <h1 class="hidden">Portfolio</h1>
+    <div class="photo-hangers">
+	    <asp:Repeater runat="server" ID="Projects">
+		    <ItemTemplate>
+		        <a class="fancybox" id='<%# Eval("Id") %>' href="<%# Eval("Url") %>">
+				    <div class="polaroid <%# Container.ItemIndex == 0 ? "primary" : string.Empty %>">
+					    <span class="clip"></span>
+					    <img src="<%# Eval("ImageUrl") %>" alt="<%# Eval("Name") %>">
+					    <span class="polaroid-label"><%# Eval("Name") %></span>
+				    </div>
+			    </a>
+		    </ItemTemplate>
+	    </asp:Repeater>
+    </div>
+</asp:Content>

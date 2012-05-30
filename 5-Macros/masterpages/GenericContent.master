@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Base.master" CodeFile="GenericContent.master.cs" Inherits="masterpages_GenericContent" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+ <div class="single-photo alt">
+			<div class="polaroid primary">
+				<span class="clip"></span>
+			    <img src="<%= ImageUrl %>" />
+			</div>
+			<section class="content">
+			    <umbraco:Item runat="server" Field="mainContent" />
+			</section>
+		</div>
+</asp:Content>
